@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SMSUIActivity!</string>
+    <string name="app_name">加密短信</string>
+    <string name="goback">返回</string>
+    <string name="message">短信列表</string>
+    <string name="writemessage">写短信</string>
+    <string name="number">10086</string>
+    <string name="hint">输入…</string>
+    <string name="sendMessage">发送</string>
+    <string name="backMain">返回</string>
+    <string name="sms_number">请输入收件人号码</string>
+    <string name="sms_content">编辑您的短信</string>
+    <string name="cor_key">协商密钥</string>
+    <string name="sms_send">发送</string>
+</resources>

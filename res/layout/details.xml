@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#456"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:text="@string/number" />
+    <Button
+        android:id="@+id/backToMain"
+        android:text="@string/backMain"
+        android:background="#ae2"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+    <Button 
+        android:id="@+id/gen_key"
+        android:text="@string/cor_key"
+        android:background="#ea2"
+        android:textColor="#fff"
+        android:textSize="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+        
+    <ListView
+        android:id="@+id/bothMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_bot"
+        android:layout_below="@+id/title" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/linear_bot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#a4c" >
+
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/send"
+            android:hint="@string/hint"
+            android:minWidth="200dp"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/sendMessage" />
+    </RelativeLayout>
+
+</RelativeLayout>

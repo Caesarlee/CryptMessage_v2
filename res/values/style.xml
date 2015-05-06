@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="notitle">
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+    <!--  
+    <style name="nostatus" parent="@android:style/Theme.TranslucentDecor">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    -->
+</resources>
